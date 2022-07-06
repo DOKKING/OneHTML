@@ -1,0 +1,331 @@
+body {
+    background: #fff;
+
+}
+
+.boss_div {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* --------Left_manu-------- */
+
+
+.menu_vtgy {
+    background-color: #4080F5;
+    box-shadow: 0px 20px 20px rgba(46, 158, 203, 0.2);
+    border-radius: 0px 0px 10px 10px;
+    Width: 280px;
+    Height: 839px;
+}
+
+
+.logo {
+    width: 280px;
+    height: 140px;
+    border: 2px solid #4080F6;
+    box-sizing: border-box;
+
+}
+
+.logotip_img {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 48px;
+}
+
+.logotyp {
+    width: 60px;
+    height: 44px;
+}
+
+.text_logotyp {
+    margin-left: 18px;
+    margin-top: -1px;
+    color: white;
+    font-size: 18px;
+    width: 142px;
+    height: 53px;
+}
+
+.scrol_menu {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+    height: 60px;
+    border-width: thick;
+    color: white;
+    font-size: 16px;
+}
+
+.scrol_but {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.button_menu {
+    width: 280px;
+    height: 60px;
+    border: 2px solid #4080F0;
+    box-sizing: border-box;
+}
+
+.p_text {
+    color: white;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.button_menu_number {
+    margin-top: 46px;
+    margin-left: 25px;
+}
+
+.number_button {
+    color: white;
+}
+
+.button_number {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.button_number_on {
+    font-size: 20px;
+}
+
+.button_menu_fotter {
+    margin-top: 97px;
+    color: white;
+}
+
+.info_menu_fotter {
+    margin-left: 30px;
+}
+
+.button_left_menu {
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #4080F5;
+    border: 2px solid;
+    filter: drop-shadow(0px 12px 20px rgba(27, 96, 255, 0.25));
+    border-radius: 10px;
+}
+
+
+/* --------Centr_content ------- */
+
+
+
+/*  Up_header  */
+
+.new_boss_logo{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_header {
+  justify-content: center;
+    width: 1160px;
+    height: 140px;
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(34, 47, 162, 0.1);
+}
+
+.new_boss_logo {
+    background: #fff;
+}
+
+.poisk_header {
+    margin-top: 25px;
+    display: block;
+    width: 745px;
+    height: 10px;
+    margin-left: 55px;
+}
+
+.poisk_button {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.poisk_button_klick {
+    font-size: 15px;
+    background: #E5E5E5;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 6px;
+    align-items: center;
+}
+
+.button_scrol {
+    font-size: 20px;
+    background: none;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 4px;
+    color: #4080F5;
+}
+
+.on_klick {
+    background: #4080F5;
+}
+
+.header_down {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 21px;
+}
+
+.reg_img_back {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #4080F5;
+    text-align: center;
+}
+
+.reg_img {
+    margin-top: 10px;
+}
+
+.reg_name {
+    margin-left: 12px;
+}
+
+.name {
+    color: #4080F5;
+}
+
+.p_reg_name {
+    margin: 1px;
+}
+
+/* Boss_menu */
+
+.menu_bos {}
+
+.news_bos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 41px;
+}
+
+.news_one {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 300;
+    height: 90;
+    border-left: 20px solid #4080F5;
+}
+
+.h2_menu {
+    margin-left: 20px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.p_menu {
+    margin-left: 20px;
+    font-size: 14px;
+    width: 202px;
+    height: 30px;
+}
+
+.news_two {
+    width: 300px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border-left: 20px solid #6BCB2C;
+}
+
+.news_three {
+    width: 300px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border-left: 20px solid #FFF068;
+}
+
+.h1_news {
+    font-size: 24px;
+    margin-left: 55px;
+    margin-bottom: 34px;
+    margin-top: 55px;
+}
+
+.news_boss_info {
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    Width: 971px;
+    Height: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+}
+
+.info_text_bos {
+    margin-left: 20px;
+}
+
+.gold_info {
+    font-size: 18px;
+}
+
+.button_news_boss {
+    width: 245px;
+    height: 45px;
+    left: 361px;
+    top: 539px;
+    background: #4080F5;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 18px;
+}
+
+.date_news_bos {
+    margin-top: 70px;
+}
+
+.img_news_boss {
+    margin-top: 20px;
+    margin-right: 29px;
+}
+
+.lock_open {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.open_imgh {
+    Width: 20px;
+    Height: 12.5px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.p_info_gold {
+    font-size: 16px;
+}
+
+.open_img {
+    margin: 0px;
+}
