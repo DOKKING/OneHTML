@@ -71,7 +71,7 @@ body {
 .button_menu {
     width: 280px;
     height: 60px;
-    border: 2px solid #4080F0;
+    border: 2px solid #3680ff;
     box-sizing: border-box;
 }
 
@@ -79,6 +79,10 @@ body {
     color: white;
     margin-left: 30px;
     font-size: 14px;
+}
+
+.p_text:hover {
+    font-size: 15px;
 }
 
 .button_menu_number {
@@ -95,6 +99,10 @@ body {
     border: none;
     font-size: 16px;
     color: white;
+}
+
+.button_number:hover {
+    font-size: 20px;
 }
 
 .button_number_on {
@@ -126,13 +134,14 @@ body {
 
 /*  Up_header  */
 
-.new_boss_logo{
+.new_boss_logo {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 .logo_header {
-  justify-content: center;
+    justify-content: center;
     width: 1160px;
     height: 140px;
     display: flex;
@@ -152,6 +161,12 @@ body {
     margin-left: 55px;
 }
 
+.none_a_menu {
+    background: none;
+    text-decoration: none;
+    color: black;
+}
+
 .poisk_button {
     margin-left: 55px;
     margin-top: 20px;
@@ -166,6 +181,12 @@ body {
     padding: 6px;
     align-items: center;
 }
+
+.poisk_button_klick:hover {
+    background: #4080F5;
+    transition: 2s;
+}
+
 
 .button_scrol {
     font-size: 20px;
@@ -266,6 +287,17 @@ body {
     margin-left: 55px;
     margin-bottom: 34px;
     margin-top: 55px;
+    display: flex;
+}
+
+.info_name_i1 {
+    display: inline-block;
+    margin: 15px;
+}
+
+.info_name_i2 {
+    display: inline-block;
+    margin: 15px;
 }
 
 .news_boss_info {
@@ -278,6 +310,25 @@ body {
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
+}
+
+.info_news_boss {}
+
+.imgh {
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.fname_ld {
+    display: block;
+}
+
+.name_ld {
+    display: block;
+}
+
+.foname_ld {
+    display: block;
 }
 
 .info_text_bos {
@@ -298,6 +349,11 @@ body {
     border: none;
     color: white;
     margin-top: 18px;
+}
+
+.imgh {
+    width: 100px;
+    height: 100px;
 }
 
 .date_news_bos {
@@ -329,3 +385,161 @@ body {
 .open_img {
     margin: 0px;
 }
+
+.header_down{
+    position: relative;
+}
+
+
+
+/*---------------------------- posit ------------------------ */
+
+.header_down .reg-info .window_exit{
+
+}
+
+.window_one {
+    position: absolute;
+    left: -90px;
+    top: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(34, 47, 162, 0.2);
+    border-radius: 15px;
+}
+
+.window_two{
+    margin: 20px;
+}
+
+.window_exit{
+    display: none;
+}
+
+.one_window_img{
+    display: flex;
+}
+
+.reg_info_window{
+
+}
+
+.jnone{
+    color: #BFBFBF;
+}
+
+.palka{
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    border: 1px solid #E5E5E5;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.button_window_one{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+
+
+/*--------------------------TableTime-----------------------*/
+
+
+
+.timetable {
+    margin-left: auto;
+    margin-right: auto;
+    background: #F7F8FA;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+.timetable_one  {
+    text-align: center;
+    width: 100px;
+    height: 130px;
+    background: #6BCB2C;
+}
+
+.timetable_one_not{
+    text-align: center;
+    width: 100px;
+    background: #4080F5;
+
+}
+.timet_h {
+    margin-top: 30%;
+    margin-bottom: 0px;
+}
+.timet_p {
+    margin: 0px;
+    padding: 0px;
+
+}
+.timetable_two {
+    width: 870px;
+    margin-left: 30px;
+}
+.timetable_two_info {
+
+}
+.p_one {
+    display: inline-block;
+    color: #4080F5;
+    font-size: 16px;
+}
+
+.p_two{
+    display: block;
+    margin: none;
+    padding: none;
+    font-size: 16px;
+}
+
+
+
+
+
+/*----------------------------Fixed_material--------------------------------*/
+
+.fix_material_boss{
+}
+
+.fix_material {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    justify-content: space-between;
+    margin: 15px;
+}
+.fix_text_one {
+}
+
+.p_material{
+    margin-left: 30px;
+}
+
+.btn_material{
+    width: 170px;
+    height: 55px;
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    background: #4080F5;
+    border-radius: 0px 15px 15px 0px;
+}
+.fix_text_two {
+}
+
+.a_material{
+    display: inline-block;
+    margin-top: 8%;
+    text-decoration: none;
+    color: white;
+}
+
+
