@@ -1,0 +1,292 @@
+body{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sharp{
+}
+
+.header_app{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+    border-radius: 0px;
+
+}
+
+.header_menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 600px;
+}
+
+.li_menu{
+    margin-left: 13px;
+    margin-right: 13px;
+    justify-items: center;
+}
+
+.header_button{
+    display: flex;
+}
+
+.head_btn_p{
+    margin-right: 32px;
+}
+
+.head_btn_down{
+    height: 52px;
+    width: 160px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+    border-radius: 12px;
+    margin-right: 18px;
+}
+
+
+.head_btn_reg{
+    height: 52px;
+    width: 115px;
+    background: #FF5634;
+    border: 1px solid #FF5634;
+    border-radius: 12px;
+}
+
+
+/*-----------------Main----------------*/
+
+.main_boss{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.main_one{
+    display: flex;
+}
+
+.main_two{
+
+}
+
+.main_one_bos{
+    margin-top: 162px;
+}
+
+.main_food{
+    color: #FF5634;
+    font-size: 18px;
+}
+
+.main_h1{
+    width: 515px;
+    font-size: 62px;
+    line-height: 72px;
+    color: #121212;
+}
+
+.main_p_h1{
+    font-size: 12px;
+    line-height: 30px;
+    color: #656565;
+    width: 515px;
+
+}
+
+.tel_main{
+    position: absolute;
+    top: 150px;
+    right: 440px;
+}
+
+.main_btn_reg{
+    width: 245px;
+    background: #FF5634;
+    border: 1px solid #FF5634;
+    border-radius: 16px;
+}
+
+.main_btn_app{
+    margin-left: 28px;
+    width: 205px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+    border-radius: 16px;
+}
+
+.polosa{
+    margin: 5px;
+    border: 1px solid #cacaca;
+    margin-top: 60px;
+}
+
+.main_info_bos{
+    display: flex;
+    justify-content:space-around;
+}
+
+.p_info_main{
+    font-size: 56px;
+    color: #121212;
+    margin-bottom: 0px;
+}
+
+.p2_info_main{
+    font-size: 18px;
+    color: #656565;
+    margin: 0px;
+
+}
+
+.span{
+    color: #FF5634;
+}
+/*-----------------Main----------------*/
+
+/*-----------------Info_world----------------*/
+
+.info_world{
+
+}
+
+.world{
+    margin-top: 120px;
+    font-size: 20px;
+    text-align: center;
+    color: #656565;
+}
+
+.p_world{
+    display: inline-block;
+}
+
+.world_img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+/*-----------------Info_world----------------*/
+
+.works{
+  text-align: center;
+}
+
+.works_one{
+    margin-bottom: 108px;
+}
+
+.works_p_one{
+    color: #FF5634;
+    font-size: 18px;
+}
+
+.works_p_two{
+    color: #656565;
+    font-size: 12px;
+}
+
+.work_h1{
+    margin-left: auto;
+    margin-right: auto;
+    color: #121212;
+    font-size: 44px;
+    width: 520px;
+}
+
+.works_two{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.works_one_img_info{
+    width: 344px;
+}
+
+
+.works_btn_reg{
+    width: 246px;
+    height: 73px;
+    background: #FF5634;
+    border: 1px solid #FF5634;
+    border-radius: 16px;
+    color: white;
+}
+
+.works_btn_dow{
+    width: 205px;
+    height: 73px;
+    margin-left: 27px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+    border-radius: 16px;
+}
+
+.works_three{
+    margin-bottom: 200px;
+}
+
+
+/*-----------------Works----------------*/
+
+
+/*-----------------Food----------------*/
+.food_bos{
+    background: #121212;
+    color: white;
+}
+
+.food{
+    display: flex;
+    justify-content: space-around;
+}
+
+.food_h1{
+    font-size: 56px;
+    width: 535px;
+    margin-bottom: 16px;
+}
+
+.food_p{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.food_btn{
+    width: 206px;
+    height: 72px;
+    background: #FF5634;
+    border: 1px solid #FF5634;
+    border-radius: 16px;
+}
+
+.food_one{
+    margin-top: 274px;
+    margin-left: 110px;
+    margin-right: 85px;
+}
+
+.food_two{
+    justify-content:  ;
+}
+
+food_two_one{
+    margin:15px;
+}
+
+.food_img{
+    display: inline;
+    Width:323px;
+    Height:305px;
+    margin: 5px;
+}
+/*-----------------Food----------------*/
+
+
+
+
